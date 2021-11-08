@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SK04EX-768] Changing the password in the Modify your profile form</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://skillo.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SK04EX-768]&nbsp;<a href="https://skillo.atlassian.net/browse/SK04EX-768">Changing the password in the Modify your profile form</a>
+            <span class="subText">
+               Created: 13/Jun/21                   &nbsp;Updated: 14/Jun/21
+
+                                                    &nbsp;Resolved: 14/Jun/21
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://skillo.atlassian.net/secure/BrowseProject.jspa?id=10011">sk04Extended</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                                        <a title="2020.3.1.4200"
+                href="https://skillo.atlassian.net/issues/?jql=project%3D10011%20AND%20%22affectedVersion%22%3D10006%20ORDER%20BY%20priority%20ASC"
+            >2020.3.1.4200</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                                        <a title="2020.3.1.4300"
+                href="https://skillo.atlassian.net/issues/?jql=project%3D10011%20AND%20%22fixVersion%22%3D10007%20ORDER%20BY%20priority%20ASC"
+            >2020.3.1.4300</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="5edcae42a1f55d0ab4749865"
+                id="word_reporter_5edcae42a1f55d0ab4749865"
+                href="https://skillo.atlassian.net/secure/ViewProfile.jspa?accountId=5edcae42a1f55d0ab4749865">
+                    Student5
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="5edcae42a1f55d0ab4749865"
+                id="word_assignee_5edcae42a1f55d0ab4749865"
+                href="https://skillo.atlassian.net/secure/ViewProfile.jspa?accountId=5edcae42a1f55d0ab4749865">
+                    Student5
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-16485-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Nerdlings                    </td>
+    </tr>
+    
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Tests</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                tests
+            </td>
+            <td>
+                <a href="https://skillo.atlassian.net/browse/SK04EX-764">
+                     <strike>SK04EX-764</strike>                 </a>
+            </td>
+            <td>
+                Changing the password in the Modify y...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                is tested by
+            </td>
+            <td>
+                <a href="https://skillo.atlassian.net/browse/SK04EX-861">
+                     SK04EX-861                 </a>
+            </td>
+            <td>
+                Changing the password in the Modify y...
+            </td>
+            <td>
+                PASS
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_10034-16485-value" class="value" bgcolor="#ffffff" width="80%">    1 - Blocker
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_10033-16485-value" class="value" bgcolor="#ffffff" width="80%">      1. Open browser and enter URL<br/>
+2. Click on Login link<br/>
+3. Enter valid user and password<br/>
+4. Click on Sign in button<br/>
+ER: Profile page should be displayed<br/>
+5. Navigate to profile picture<br/>
+6. Click on &quot;Modify Your Profile&quot; <br/>
+7. Enter new password: 123123qwe<br/>
+8. Confirm password: 123123qwe<br/>
+9. Click on Save button<br/>
+10. Logout from the profile<br/>
+11. Open Login page<br/>
+12. Enter email<br/>
+13. Enter password<br/>
+14. Click on sign in button<br/>
+ER: The user should be able to login with new password<br/>
+AR: The user cant login and error massage for invalid password is displayed
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-16485-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-3" href="https://skillo.atlassian.net/browse/SK04EX-344">
+        Nerdlings - Edit profile information
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10021-16485-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>The Modify Your Profile form has the following fields: Username, Email, Password, Confirm password, Public info. The information in any of these fields could be changed. In addition the user can change their profile picture.</p>
+
+<p>Preconditions:<br/>
+Register user<br/>
+Logged in the profile</p>
+
+<p>Data<br/>
+email: test@abv.bg<br/>
+password: 123123qwe</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Tue Aug 31 08:55:24 UTC 2021 by Student5 using Jira 1001.0.0-SNAPSHOT#100175-sha1:92848a81ad9a78f074cfefbc1e4872905a7d98f3.
+
+</body>
+</html>
