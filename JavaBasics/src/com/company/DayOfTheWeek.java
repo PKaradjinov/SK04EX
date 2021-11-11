@@ -1,6 +1,8 @@
 package com.company;
 
 import java.util.Scanner;
+//Write a program to print the days of the week based on the user digit 1 7 input. 
+//The message should be “The [user input digit] standard the day of the week is [the day of the week]” Hint: Use switch case.
 
 public class DayOfTheWeek {
 
